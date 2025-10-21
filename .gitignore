@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+/.idea
+/.node_modules
+=======
 cat > .gitignore << 'EOF'
 # IDE
 .idea/
@@ -22,3 +26,4 @@ dist/
 .env.*
 .DS_Store
 EOF
+>>>>>>> origin/main
