@@ -1,7 +1,7 @@
 [
   {
     "name" : "Nicolas",
-    "poste" : "Front-End Dev",
+    "poste" : "Fullstack Dev",
     "exp" : "4",
     "technos" : ["React", "Vue", "Angular", "Swift", "NodeJS", "Javascript", "HTML", "CSS"],
     "img" : "https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.webp"
@@ -11,6 +11,27 @@
     "poste" : "Front-End Dev",
     "exp" : "2",
     "technos" : ["HTML", "CSS", "Javascript", "React", "Php", "Laravel"],
-    "img" : "https://www.facebook.com/photo?fbid=10161709110671730&set=a.435249706729"
+    "img" : "https://img.freepik.com/free-vector/hand-drawn-kitsune-illustration_23-2149369818.jpg?t=st=1761053487~exp=1761057087~hmac=98a8795d841f5905704818103efb9408e1109dca4f8151a6cd6f4ed839c415c8"
+  },
+  {
+    "name" : "Thomas",
+    "poste" : "Front-End Dev",
+    "exp" : "0",
+    "technos" : ["Javascript", "HTML", "CSS"],
+    "img" : "https://media.topito.com/wp-content/uploads/2015/04/35-600x656.jpg"
+  },
+  {
+    "name" : "Florian",
+    "poste" : "Front-End Dev",
+    "exp" : "3",
+    "technos" : ["React", "Angular", "Javascript", "jQuery", "Bootstrap"],
+    "img" : "https://www.retrofootball.fr/media/wysiwyg/Zidane_goal_against_Bayer_Leverkusen_Uefa_Champions_2002.png.png"
+  },
+  {
+    "name" :"Axel",
+    "poste" : "Back-End Dev",
+    "exp" : "0",
+    "technos" : ["HTML", "CSS", "Javascript", "Python", "C++"],
+    "img" : "https://i.redd.it/king-kazma-from-summer-wars-v0-8yr9kwqz1gac1.png?width=564&format=png&auto=webp&s=0eaf79933dba90fc39290b7b0937688f974106f5"
   }
 ]

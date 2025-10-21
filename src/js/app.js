@@ -42,6 +42,9 @@ function showTeammates(array){
     // On vide la liste
     list.innerHTML = ""
     // pour chaque element de l'array en paramètre on appelle la fonction createCard
+    if (array.length === 0) {
+        list.innerHTML += `<p class="text-2xl text-center md:col-start-2">Il n'y a rien a afficher...</p>`
+    }
     array.forEach((teammate)=>{
         list.innerHTML += createCard(teammate)
     })
