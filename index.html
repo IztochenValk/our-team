@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="src/css/style.css">
+    <title>Our Team</title>
+</head>
+<body>
+<!--Titre-->
+<div class="bg-base-200 py-16">
+    <div class="hero-content text-center">
+        <div class="max-w-lg">
+            <h1 class="text-5xl font-bold">Our team</h1>
+            <p class="py-6">
+                <!-- texte si dessous generé par IA -->
+                On n’est peut-être pas parfaits, mais on frôle dangereusement la perfection : un mélange explosif de talent, de caféine et de fous rires, prêts à repousser les limites du possible juste pour voir si ça compile.
+            </p>
+        </div>
+    </div>
+</div>
+<!-- Search -->
+<div class="join flex flex-wrap justify-center py-8">
+    <div>
+        <label class="input validator join-item">
+            <input type="text" placeholder="teammate name" required />
+        </label>
+        <div class="validator-hint hidden">Enter valid email address</div>
+    </div>
+    <button class="btn btn-primary join-item">Search</button>
+</div>
+<!-- Team -->
+<div class="container xl:max-w-screen-xl lg:max-w-screen-lg mx-auto xl:px-0 lg:px-0 px-16">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        <div class="card card-side bg-base-100 shadow-lg">
+            <figure>
+                <img
+                        src="https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.webp"
+                        alt="Movie" />
+            </figure>
+            <div class="card-body">
+                <h2 id="name" class="card-title">Nom</h2>
+                <p id="poste" class="italic">poste</p>
+                <p class=""><span id="exp">X</span> années d'expériences</p>
+                <div id="technos" class="flex flex-wrap gap-2 mb-4">
+                    <div class="badge badge-outline badge-primary">React</div>
+                    <div class="badge badge-outline badge-primary">React</div>
+                    <div class="badge badge-outline badge-primary">React</div>
+                    <div class="badge badge-outline badge-primary">React</div>
+                    <div class="badge badge-outline badge-primary">React</div>
+                    <div class="badge badge-outline badge-primary">...</div>
+                </div>
+                <div class="card-actions justify-end">
+                    <button class="btn btn-primary w-full">Voir le profil</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="src/js/app.js"></script>
+</body>
+</html>
