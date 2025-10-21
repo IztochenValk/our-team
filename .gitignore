@@ -1,2 +1,29 @@
+<<<<<<< HEAD
 /.idea
-/node_modules
+/.node_modules
+=======
+cat > .gitignore << 'EOF'
+# IDE
+.idea/
+.vscode/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# Vite / build
+dist/
+.vite/
+.cache/
+.eslintcache
+
+# Env / secrets
+.env
+.env.*
+.DS_Store
+EOF
+>>>>>>> origin/main

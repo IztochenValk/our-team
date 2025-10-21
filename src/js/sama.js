@@ -4,13 +4,7 @@ async function getPost() {
     try {
         const response = await fetch("../teammates.json");
         const data = await response.json();
-        let tab = data;
-        for (let i = 0; i < tab.length; i++) {
-            let mate = tab[i];
-            console.log("Teammate", mate.name);
-        }
         return data;
-        //console.log("Post récupéré :", data);
     } catch (error) {
         console.error("Erreur :", error);
     }
@@ -22,9 +16,7 @@ function valider(tab) {
         for (let i = 0; i < tab.length; i++) {
             if (tab[i].name == name) {
                 console.log("voici le mate")
-            } else {
-                console.log('nope');
-            }
+            } 
         }
     })
 }
