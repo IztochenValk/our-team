@@ -22,41 +22,16 @@
     </div>
 </div>
 <!-- Search -->
-<div class="join flex flex-wrap justify-center py-8">
-    <div>
-        <label class="input validator join-item">
-            <input type="text" placeholder="teammate name" required id="recherche" name="q"/>
-        </label>
-        <div class="validator-hint hidden">Enter valid email address</div>
-    </div>
-    <button class="btn btn-primary join-item" id="valider">Search</button>
+<div class="flex flex-wrap justify-center py-8">
+    <label class="input validator">
+        <input type="text" placeholder="Search..." required id="recherche" name="q"/>
+    </label>
+    <div class="validator-hint hidden">Enter valid email address</div>
 </div>
-<!-- Team -->
+<!-- TeamList -->
 <div class="container xl:max-w-screen-xl lg:max-w-screen-lg mx-auto xl:px-0 lg:px-0 px-16">
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-        <div class="card card-side bg-base-100 shadow-lg">
-            <figure>
-                <img
-                        src="https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.webp"
-                        alt="Movie" />
-            </figure>
-            <div class="card-body">
-                <h2 id="name" class="card-title">Nom</h2>
-                <p id="poste" class="italic">poste</p>
-                <p class=""><span id="exp">X</span> années d'expériences</p>
-                <div id="technos" class="flex flex-wrap gap-2 mb-4">
-                    <div class="badge badge-outline badge-primary">React</div>
-                    <div class="badge badge-outline badge-primary">React</div>
-                    <div class="badge badge-outline badge-primary">React</div>
-                    <div class="badge badge-outline badge-primary">React</div>
-                    <div class="badge badge-outline badge-primary">React</div>
-                    <div class="badge badge-outline badge-primary">...</div>
-                </div>
-                <div class="card-actions justify-end">
-                    <button class="btn btn-primary w-full">Voir le profil</button>
-                </div>
-            </div>
-        </div>
+    <div id="list" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        <!-- Affichage des teammates-->
     </div>
 </div>
 

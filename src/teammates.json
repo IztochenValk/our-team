@@ -1,9 +1,0 @@
-[
-  {
-    "name" : "Nicolas",
-    "poste" : "Front-End Dev",
-    "exp" : "4",
-    "technos" : ["React", "Vue", "Angular", "Swift", "NodeJS", "Javascript", "HTML", "CSS"],
-    "img" : "https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.webp"
-  }
-]
