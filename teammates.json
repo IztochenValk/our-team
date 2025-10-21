@@ -1,0 +1,16 @@
+[
+  {
+    "name" : "Nicolas",
+    "poste" : "Front-End Dev",
+    "exp" : "4",
+    "technos" : ["React", "Vue", "Angular", "Swift", "NodeJS", "Javascript", "HTML", "CSS"],
+    "img" : "https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.webp"
+  },
+  {
+    "name" :"Sama",
+    "poste" : "Front-End Dev",
+    "exp" : "2",
+    "technos" : ["HTML", "CSS", "Javascript", "React", "Php", "Laravel"],
+    "img" : "https://www.facebook.com/photo?fbid=10161709110671730&set=a.435249706729"
+  }
+]

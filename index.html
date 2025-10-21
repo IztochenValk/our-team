@@ -25,11 +25,11 @@
 <div class="join flex flex-wrap justify-center py-8">
     <div>
         <label class="input validator join-item">
-            <input type="text" placeholder="teammate name" required />
+            <input type="text" placeholder="teammate name" required id="recherche" name="q"/>
         </label>
         <div class="validator-hint hidden">Enter valid email address</div>
     </div>
-    <button class="btn btn-primary join-item">Search</button>
+    <button class="btn btn-primary join-item" id="valider">Search</button>
 </div>
 <!-- Team -->
 <div class="container xl:max-w-screen-xl lg:max-w-screen-lg mx-auto xl:px-0 lg:px-0 px-16">
@@ -60,6 +60,6 @@
     </div>
 </div>
 
-<script src="src/js/app.js"></script>
+<script type="module" src="src/js/app.js"></script>
 </body>
 </html>
