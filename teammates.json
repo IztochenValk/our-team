@@ -12,5 +12,12 @@
     "exp" : "2",
     "technos" : ["HTML", "CSS", "Javascript", "React", "Php", "Laravel"],
     "img" : "https://www.freepik.com/free-vector/hand-drawn-flat-design-kitsune-mask-illustration_25252767.htm#fromView=search&page=1&position=49&uuid=64ac9bef-8053-4b1a-a1f8-c32bc30a7960&query=sharingan"
+  },
+  {
+    "name" :"Axel",
+    "poste" : "Back-End Dev",
+    "exp" : "0",
+    "technos" : ["HTML", "CSS", "Javascript", "Python", "C++"],
+    "img" : "https://i.redd.it/king-kazma-from-summer-wars-v0-8yr9kwqz1gac1.png?width=564&format=png&auto=webp&s=0eaf79933dba90fc39290b7b0937688f974106f5"
   }
 ]
